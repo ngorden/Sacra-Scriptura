@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require_relative '../main'
+require_relative '../lib/sacra_scriptura/parsing'
 
 # tests parsing strings into verses
 class ParsingTest < Minitest::Test

@@ -1,9 +1,10 @@
 #! /usr/bin/ruby
-
 # frozen_string_literal: true
 
-require_relative 'bible_study'
-require_relative 'parsing'
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/../lib"
+
+require 'sacra_scriptura/bible_study'
+require 'sacra_scriptura/parsing'
 
 def main
   options = parse_options
